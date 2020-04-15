@@ -1,0 +1,20 @@
+#MyEclipse Hibernate Properties
+#Thu Mar 26 04:56:38 CST 2020
+genBasicCompId=false
+sessionFactoryName=business.basic.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/RepairCusAdminMS/hibernate.reveng.xml
+configFile=/RepairCusAdminMS/src/hibernate.cfg.xml
+createConfigFile=true

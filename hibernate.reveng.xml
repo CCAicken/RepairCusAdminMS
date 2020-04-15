@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="T_User" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.TUser">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="V_User" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.VUser">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="V_RoleSysModel" schema="dbo"
+		catalog="RepairCustomerMSDB" class="model.VRoleSysModel">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Appointment" schema="dbo"
+		catalog="RepairCustomerMSDB" class="model.TAppointment">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_CustomerApp" schema="dbo"
+		catalog="RepairCustomerMSDB" class="model.TCustomerApp">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="V_Appointment" schema="dbo"
+		catalog="RepairCustomerMSDB" class="model.VAppointment">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Role" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.TRole">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Photo" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.TPhoto">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Customer" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.TCustomer">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Brand" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.TBrand">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="V_Brand" schema="dbo" catalog="RepairCustomerMSDB"
+		class="model.VBrand">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="V_CustomerCar" schema="dbo"
+		catalog="RepairCustomerMSDB" class="model.VCustomerCar">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+<table name="T_CustomerCar" schema="dbo" catalog="RepairCustomerMSDB"
+	class="model.TCustomerCar">
+	<primary-key>
+		<generator class="identity"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
